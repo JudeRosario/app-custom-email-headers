@@ -1,12 +1,12 @@
 ## Addon for the Post Voting Plugin (WPMUDEV)
 
-__This is a Add on to the [Appointments +](https://premium.wpmudev.org/project/post-voting-plugin/), it allows for custom email headers in outgoing messages. It lets you send multipart messages with base64 encoded images as part of the message itself.__
+__This is a Add on to the [Appointments +](https://premium.wpmudev.org/project/appointments-plus/) , it allows for custom email headers in outgoing messages. It lets you send multipart messages with base64 encoded images as part of the message itself.__
 
 
 The problem is that it currently only works when you use the `<img href="some-url.jpeg">` approach. This is far from ideal because
 
-a) This causes many users to not see the images until they agree to download "external resource" 
-b) Most email systems classify your confirmation as SPAM because it linked to unknown domains/external resource.
+ * This causes many users to not see the images until they agree to download "external resource" 
+ * Most email systems classify your confirmation as SPAM because it linked to unknown domains/external resource.
 
 A+ confirmation emails can be sent using HTML as a feature. This plugin lets you send messages like as shown in this screenshot
 
