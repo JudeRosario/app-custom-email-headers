@@ -1,4 +1,4 @@
-## Addon for the Post Voting Plugin (WPMUDEV)
+## Addon for the Appointmentts+ Plugin (WPMUDEV)
 
 __This is a Add on to the [Appointments +](https://premium.wpmudev.org/project/appointments-plus/) , it allows for custom email headers in outgoing messages. It lets you send multipart messages with base64 encoded images as part of the message itself.__
 
