@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom Email Headers for A+
 Description: Allows you to set custom email headers for messages sent using Appointments+ .
-Version: 1.0
+Version: 1.0.0
 Author: Jude Rosario (Incsub)
 */
 
