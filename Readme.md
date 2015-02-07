@@ -27,5 +27,5 @@ Download the zip file and upload it as part of the upload new plugin screen from
 
 Open up your `mu-plugins` folder for your WordPress Directory (or create one) usually located within `wp-content` folder of your `public_html` folder. Select the PHP file `app-custom-email-headers.php` and place it into your `wp-content/mu-plugin` folder in your WordPress Directory. You will have a new options in the admin screen.
 
-
+![Screenshot](http://i61.tinypic.com/be654k.png)
 
