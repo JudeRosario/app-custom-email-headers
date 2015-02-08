@@ -65,9 +65,15 @@ EOT;
 
 endif;
 
-if (class_exists('Appointments'))
-{
-	global $appointments;
-	new Custom_Email_Headers($appointments);
-}
+// Check if the base plugin is installed before activating the addon 
+add_action('plugins_loaded', 'init_ceh') ;
+
+	function init_ceh () {
+		if (class_exists('Appointments'))
+			{
+				global $appointments;
+				new Custom_Email_Headers($appointments);
+			}
+	}
+
 ?>
