@@ -1,5 +1,7 @@
 ## Addon for the Appointmentts+ Plugin (WPMUDEV)
 
+![Screenshot](https://img.shields.io/badge/build-passed-1ece30.svg) ![Screenshot](https://img.shields.io/badge/plugin-WPMUDEV-blue.svg) ![Screenshot](https://img.shields.io/badge/license-GNU_GPL_v2-red.svg) ![Screenshot](https://img.shields.io/badge/release-1.0.0-orange.svg)
+
 __This is a Add on to the [Appointments +](https://premium.wpmudev.org/project/appointments-plus/) , it allows for custom email headers in outgoing messages. It lets you send multipart messages with base64 encoded images as part of the message itself.__
 
 
@@ -25,7 +27,6 @@ Download the zip file and upload it as part of the upload new plugin screen from
 
 #### MU Plugin
 
-Open up your `mu-plugins` folder for your WordPress Directory (or create one) usually located within `wp-content` folder of your `public_html` folder. Select the PHP file `app-custom-email-headers.php` and place it into your `wp-content/mu-plugin` folder in your WordPress Directory. You will have a new options in the admin screen.
+Open up the `mu-plugins` folder in your WordPress Directory (or create one). Its usually located within the `wp-content` folder of your `public_html` folder. Select the PHP file `app-custom-email-headers.php` and place it in the `wp-content/mu-plugin` folder in your WordPress Directory. You will have additional options under display settings as shown in the screenshot below.
 
 ![Screenshot](http://i61.tinypic.com/be654k.png)
-
